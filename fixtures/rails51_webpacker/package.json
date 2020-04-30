@@ -2,9 +2,15 @@
   "name": "rails51_webpacker",
   "private": true,
   "dependencies": {
-    "@rails/webpacker": "^3.2.1"
+    "@rails/webpacker": "^3.2.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "webpack-dev-server": "^2.11.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
