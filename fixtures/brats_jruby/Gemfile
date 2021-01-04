@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '<%= ruby_version %>', engine: 'jruby', engine_version: '<%= engine_version %>'
 
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.0'
 gem 'sinatra'
 gem 'eventmachine'
 gem 'bcrypt'
