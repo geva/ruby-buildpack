@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby '<%= ruby_version %>'
 
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.4'
 gem 'sinatra'
 gem 'eventmachine'
 gem 'bcrypt'
